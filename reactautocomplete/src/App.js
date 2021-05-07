@@ -1,10 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Nav from './components/nav';
+import Search from './components/search';
+
 
 function App() {
   return (
     <div className="App">
-<p>Home</p>
+      <Nav/>
+      
+      <Search/>
     </div>
   );
 }
